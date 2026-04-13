@@ -74,17 +74,6 @@ Console-based reservation platform for electric vehicle charging across 5 campus
 
 Fully pipelined **PA-RISC processor** with 5 stages (IF → ID → EX → MEM → WB), a 32-bit ALU supporting 11 operations with ZNVC flag generation, a Shift/Operand Handler with 7 selection modes, Control Unit for instruction decode, and a complete test bench for validation.
 
----
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=jorge-burgos10&show_icons=true&theme=dark&hide_border=true&count_private=true" height="160"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jorge-burgos10&layout=compact&theme=dark&hide_border=true" height="160"/>
-</p>
-
----
-
 <p align="center">
   <i>🎯 Open to internship opportunities in backend development, database systems, or cybersecurity!</i>
 </p>
