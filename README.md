@@ -1,4 +1,4 @@
-<h1 align="center">Hi, I'm Jorge Burgos 👋</h1>
+<h1 align="center">Hi, I'm Jorge Burgos </h1>
 <h3 align="center">Computer Engineering Student @ UPRM · Backend · Databases · Systems</h3>
 
 <p align="center">
