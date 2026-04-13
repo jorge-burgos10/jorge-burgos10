@@ -12,19 +12,19 @@
 
 ---
 
-## 🚀 About Me
+## About Me
 
 I'm a Computer Engineering student at the **University of Puerto Rico at Mayagüez (UPRM)** building real-world backend systems — from ETL pipelines and REST APIs to geospatial databases, pipelined processors, and reservation platforms.
 
-- 🔭 Currently building a **Car Tracking REST API & ETL Pipeline** (Python · FastAPI · PostgreSQL · PostGIS)
-- 🌱 Exploring **cybersecurity**, **backend systems**, and **computer architecture**
-- 🎓 B.S. Computer Engineering — Expected **May 2027**
-- 📍 Mayagüez, Puerto Rico
-- 💬 Languages: Spanish (Native) · English (Proficient) · French (Basic)
+- Currently building a **Car Tracking REST API & ETL Pipeline** (Python · FastAPI · PostgreSQL · PostGIS)
+- Exploring **cybersecurity**, **backend systems**, and **computer architecture**
+- B.S. Computer Engineering — Expected **May 2027**
+- Mayagüez, Puerto Rico
+- Languages: Spanish (Native) · English (Proficient) · French (Basic)
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 **Languages**
 
@@ -51,29 +51,29 @@ I'm a Computer Engineering student at the **University of Puerto Rico at Mayagü
 
 ---
 
-## 📌 Featured Projects
+## Featured Projects
 
 > My projects live in private repositories — here's what I've been building:
 
-### 🚗 Car Tracking System — REST API & ETL Pipeline
+### Car Tracking System — REST API & ETL Pipeline
 > **Python · FastAPI · PostgreSQL 17 · PostGIS · Docker · Render** | *In Progress*
 
 Full-stack geospatial backend with a **28-endpoint RESTful API** (strict handler/DAO architecture, no ORM) and an ETL pipeline ingesting 9 Parquet datasets into PostgreSQL/PostGIS with EWKB geometry handling and SRID 4326 conversions. Tracks vehicles, trips, GPS location pings, road segments, and parking zones. Deployed live on Render.
 
 ---
 
-### ⚡ EV Charging Station Reservation System
+### EV Charging Station Reservation System
 > **Java · Collections Framework** | *Completed*
 
 Console-based reservation platform for electric vehicle charging across 5 campus stations. Built with `HashSet` for vehicle registry, `HashMap` for station indexing, `LinkedList` for reservation queues, and a `Stack`-based undo system. Handles booking conflicts using `LocalDateTime` and `Duration`.
 
 ---
 
-### ⚙️ PA-RISC Pipelined Processor
+### PA-RISC Pipelined Processor
 > **Verilog HDL** | *Completed*
 
 Fully pipelined **PA-RISC processor** with 5 stages (IF → ID → EX → MEM → WB), a 32-bit ALU supporting 11 operations with ZNVC flag generation, a Shift/Operand Handler with 7 selection modes, Control Unit for instruction decode, and a complete test bench for validation.
 
 <p align="center">
-  <i>🎯 Open to internship opportunities in backend development, database systems, or cybersecurity!</i>
+  <i> Open to internship opportunities in backend development, database systems, or cybersecurity!</i>
 </p>
