@@ -62,14 +62,14 @@ Full-stack geospatial backend with a **28-endpoint RESTful API** (strict handler
 
 ---
 
-### <a href="https://github.com/jorge-burgos10/EV-Charging-Station-Reservation-System" target="_blank" rel="noopener noreferrer">EV Charging Station Reservation System</a>
+### [EV Charging Station Reservation System](https://github.com/jorge-burgos10/EV-Charging-Station-Reservation-System)
 > **Java · Collections Framework** | *Completed*
 
 Console-based reservation platform for personal electric vehicles at 5 UPRM campus charging stations. Built with `HashSet` for vehicle registry, `HashMap` for station and user indexing, `LinkedList` for reservation queues, and a `Stack`-based undo system. Enforces booking rules with `LocalDateTime` and `Duration` (7 AM–6 PM window, 6-hour max, credit-based pricing).
 
 ---
 
-### <a href="https://github.com/jorge-burgos10/pa-risc-ppu" target="_blank" rel="noopener noreferrer">PA-RISC Pipelined Processor</a>
+### [PA-RISC Pipelined Processor](https://github.com/jorge-burgos10/pa-risc-ppu)
 > **Verilog HDL · Icarus Verilog** | *Completed*
 
 Fully pipelined **PA-RISC processor** (`PPU`) with 5 stages (IF → ID → EX → MEM → WB), hazard detection, a 32-bit ALU with ZNVC flags, Shift/Operand Handler, Control Unit, and a self-contained test bench with binary program loading via `$readmemb`.
