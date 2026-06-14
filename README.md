@@ -55,8 +55,8 @@ I'm a Computer Engineering student at the **University of Puerto Rico at Mayagü
 
 > Here's what I've been building — open-source repos linked where available:
 
-### Car Tracking System — REST API & ETL Pipeline
-> **Python · FastAPI · PostgreSQL 17 · PostGIS · Docker · Render** | *In Progress*
+### [Car Tracking System — REST API & ETL Pipeline](https://github.com/DBSpring26/db-project-spring2026-cartracking-3neuronas)
+> **Python · FastAPI · PostgreSQL 17 · PostGIS · Docker · Render · AI Assistant** | *Completed*
 
 Full-stack geospatial backend with a **28-endpoint RESTful API** (strict handler/DAO architecture, no ORM) and an ETL pipeline ingesting 9 Parquet datasets into PostgreSQL/PostGIS with EWKB geometry handling and SRID 4326 conversions. Tracks vehicles, trips, GPS location pings, road segments, and parking zones. Deployed live on Render.
 
