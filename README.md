@@ -82,7 +82,7 @@ Geospatial fleet tracker for vehicles, trips, GPS pings, road segments, and park
 ---
 
 ### [EV Charging Station Reservation System](https://github.com/jorge-burgos10/EV-Charging-Station-Reservation-System)
-> **Java · Collections Framework** | *Two-person project · Completed* · Jorge Burgos and partner
+> **Java · Collections Framework** | *Two-person project · Completed* · Jorge Burgos and Malik
 
 Console-based reservation platform for personal electric vehicles at 5 UPRM campus charging stations. Built with `HashSet` for vehicle registry, `HashMap` for station and user indexing, `LinkedList` for reservation queues, and a `Stack`-based undo system. Enforces booking rules with `LocalDateTime` and `Duration` (7 AM–6 PM window, 6-hour max, credit-based pricing).
 
