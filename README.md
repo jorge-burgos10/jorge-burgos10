@@ -16,7 +16,7 @@
 
 I'm a Computer Engineering student at the **University of Puerto Rico at Mayagüez (UPRM)** building real-world backend systems — from ETL pipelines and REST APIs to geospatial databases, pipelined processors, and reservation platforms.
 
-- Currently building a **Car Tracking REST API & ETL Pipeline** (Python · FastAPI · PostgreSQL · PostGIS)
+- Completed a **Car Tracking REST API & ETL Pipeline** (Python · FastAPI · PostgreSQL · PostGIS)
 - Exploring **cybersecurity**, **backend systems**, and **computer architecture**
 - B.S. Computer Engineering — Expected **May 2027**
 - Mayagüez, Puerto Rico
