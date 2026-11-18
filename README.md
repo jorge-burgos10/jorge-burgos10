@@ -43,38 +43,23 @@ Working on a production serverless AWS application inherited from a previous cap
 
 ## Featured projects
 
-<a href="https://github.com/DBSpring26/db-project-spring2026-cartracking-3neuronas">
-  <img src="assets/car-tracking.svg" alt="Car Tracking System cover: a tracked route on a city map" width="100%" />
-</a>
-
 ### [Car Tracking System: REST API & ETL Pipeline](https://github.com/DBSpring26/db-project-spring2026-cartracking-3neuronas)
-
-Team project (3 members) for Database Systems (CIIC 4060 / ICOM 5016), Spring 2026. [Read the case study →](https://jorgeburgos.me/car-tracking.html)
-
+Team project (3 members) for Database Systems (CIIC 4060 / ICOM 5016), Spring 2026.
 - Built the **ETL orchestration and data-validation step** that loads 9 Parquet datasets into **PostgreSQL 17 / PostGIS**, fixing data-quality bugs before load (dtype corruption, EWKB vs. WKB geometry, ID sequences).
 - Created the initial **FastAPI** backend and Docker setup for a **28-endpoint REST API** (handler/DAO architecture, geospatial queries).
 - Built a **Streamlit** dashboard (Plotly, Folium) and an **AI assistant with a custom MCP server** for natural-language data queries.
 
 `Python` `FastAPI` `PostgreSQL` `PostGIS` `pandas` `Docker` `Streamlit` `MCP`
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/jorge-burgos10/pa-risc-ppu"><img src="assets/pa-risc.svg" alt="PA-RISC cover: a five-stage processor pipeline" width="100%" /></a>
-      <h3><a href="https://github.com/jorge-burgos10/pa-risc-ppu">PA-RISC Pipelined Processor</a></h3>
-      A 5-stage pipelined PA-RISC processor with hazard detection, a 32-bit ALU, and a test bench.
-      <br /><br />
-      <code>Verilog</code>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/jorge-burgos10/EV-Charging-Station-Reservation-System"><img src="assets/ev-charging.svg" alt="EV Charging cover: five charging stations on a campus map" width="100%" /></a>
-      <h3><a href="https://github.com/jorge-burgos10/EV-Charging-Station-Reservation-System">EV Charging Station Reservation System</a></h3>
-      Console-based reservation platform for 5 UPRM campus charging stations, with conflict detection, an automated wait queue, and stack-based undo.
-      <br /><br />
-      <code>Java</code> <code>Data Structures</code>
-    </td>
-  </tr>
-</table>
+### [PA-RISC Pipelined Processor](https://github.com/jorge-burgos10/pa-risc-ppu)
+A 5-stage pipelined PA-RISC processor with hazard detection, a 32-bit ALU, and a test bench.
+
+`Verilog`
+
+### [EV Charging Station Reservation System](https://github.com/jorge-burgos10/EV-Charging-Station-Reservation-System)
+Console-based reservation platform for 5 UPRM campus charging stations, with conflict detection, an automated wait queue, and stack-based undo.
+
+`Java` `Data Structures`
 
 ## Tech stack
 
