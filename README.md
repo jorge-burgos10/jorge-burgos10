@@ -1,79 +1,64 @@
-<h1 align="center">Hi, I'm Jorge Burgos </h1>
-<h3 align="center">Computer Engineering Student @ UPRM · Backend · Databases · Systems</h3>
+# Hi, I'm Jorge Burgos
 
-<p align="center">
-  <a href="mailto:jorgeburgos859@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-  </a>
-  <a href="https://www.linkedin.com/in/jorge-burgos-b5a8748a">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-</p>
+**Computer Engineering Student @ UPRM · Backend · Data · Automation · Cloud Security**
 
----
+I'm a Computer Engineering student at the University of Puerto Rico at Mayagüez. I build backend and data systems and automate the work around them, from ETL pipelines and REST APIs to event-driven cloud functions and CI workflows, and I work on a production serverless AWS backend as an undergraduate researcher.
 
-## About Me
-
-I'm a Computer Engineering student at the **University of Puerto Rico at Mayagüez (UPRM)** building real-world backend systems — from ETL pipelines and REST APIs to geospatial databases, pipelined processors, and reservation platforms.
-
-- Completed a **Car Tracking REST API & ETL Pipeline** (Python · FastAPI · PostgreSQL · PostGIS)
-- Exploring **cybersecurity**, **backend systems**, and **computer architecture**
-- B.S. Computer Engineering — Expected **May 2027**
+- B.S. in Computer Engineering, expected **December 2027**
+- Undergraduate Research Assistant, **SCOPE Project** (Software Team), IoT Lab, UPRM
+- Currently learning: Flask, React, Azure data services
 - Mayagüez, Puerto Rico
-- Languages: Spanish (Native) · English (Proficient) · French (Basic)
+- Spanish (native) · English (proficient) · French (basic)
+- Looking for **Summer 2027 internships** in backend, data engineering, automation, or cloud
 
 ---
 
-## Tech Stack
+## Research: SCOPE Project, UPRM
 
-**Languages**
+Working on a production serverless AWS application inherited from a previous capstone team (~40 Lambda functions, API Gateway, S3, SQS, RDS PostgreSQL).
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![Verilog](https://img.shields.io/badge/Verilog-HDL-8A2BE2?style=flat-square)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
-
-**Backend & Databases**
-
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL%2017-316192?style=flat-square&logo=postgresql&logoColor=white)
-![PostGIS](https://img.shields.io/badge/PostGIS-008BB9?style=flat-square&logo=postgresql&logoColor=white)
-
-**Systems & Tools**
-
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![POSIX](https://img.shields.io/badge/POSIX-Threads-lightgrey?style=flat-square)
-![Render](https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=white)
+- **Security:** Audited the architecture and secured unauthenticated API routes with IAM authorization and rate limiting, verified in production.
+- **Privacy:** Designed S3 lifecycle rules and an event-driven Lambda that deletes processed images within seconds, removing ~12 GB of stored photos.
+- **Performance:** Measured and analyzed API latency to separate cold-start from warm response times.
+- **Engineering practice:** Set up GitHub Actions CI with automated tests; ship changes through pull requests and code reviews.
 
 ---
 
 ## Featured Projects
 
-> Here's what I've been building — open-source repos linked where available:
+### [Car Tracking System: REST API & ETL Pipeline](https://github.com/DBSpring26)
+Team project (3 members) for Database Systems (CIIC 4060 / ICOM 5016), Spring 2026.
+- Built the **ETL orchestration and data-validation step** that loads 9 Parquet datasets into **PostgreSQL 17 / PostGIS**, fixing data-quality bugs before load (dtype corruption, EWKB vs. WKB geometry, ID sequences).
+- Created the initial **FastAPI** backend and Docker setup for a **28-endpoint REST API** (handler/DAO architecture, geospatial queries).
+- Built a **Streamlit** dashboard (Plotly, Folium) and an **AI assistant with a custom MCP server** for natural-language data queries.
 
-### [Car Tracking System — REST API & ETL Pipeline](https://github.com/DBSpring26/db-project-spring2026-cartracking-3neuronas)
-> **Python · FastAPI · PostgreSQL 17 · PostGIS · Docker · Render · AI Assistant** | *Completed*
-
-Full-stack geospatial backend with a **28-endpoint RESTful API** (strict handler/DAO architecture, no ORM) and an ETL pipeline ingesting 9 Parquet datasets into PostgreSQL/PostGIS with EWKB geometry handling and SRID 4326 conversions. Tracks vehicles, trips, GPS location pings, road segments, and parking zones. Deployed live on Render.
-
----
-
-### [EV Charging Station Reservation System](https://github.com/jorge-burgos10/EV-Charging-Station-Reservation-System)
-> **Java · Collections Framework** | *Completed*
-
-Console-based reservation platform for personal electric vehicles at 5 UPRM campus charging stations. Built with `HashSet` for vehicle registry, `HashMap` for station and user indexing, `LinkedList` for reservation queues, and a `Stack`-based undo system. Enforces booking rules with `LocalDateTime` and `Duration` (7 AM–6 PM window, 6-hour max, credit-based pricing).
-
----
+`Python` `FastAPI` `PostgreSQL` `PostGIS` `pandas` `Docker` `Streamlit` `MCP`
 
 ### [PA-RISC Pipelined Processor](https://github.com/jorge-burgos10/pa-risc-ppu)
-> **Verilog HDL · Icarus Verilog** | *Completed*
+A 5-stage pipelined PA-RISC processor with hazard detection, a 32-bit ALU, and a test bench.
 
-Fully pipelined **PA-RISC processor** (`PPU`) with 5 stages (IF → ID → EX → MEM → WB), hazard detection, a 32-bit ALU with ZNVC flags, Shift/Operand Handler, Control Unit, and a self-contained test bench with binary program loading via `$readmemb`.
+`Verilog`
 
-<p align="center">
-  <i> Open to internship opportunities in backend development, database systems, or cybersecurity!</i>
-</p>
+### [EV Charging Station Reservation System](https://github.com/jorge-burgos10/EV-Charging-Station-Reservation-System)
+Console-based reservation platform for 5 UPRM campus charging stations, with conflict detection, an automated wait queue, and stack-based undo.
+
+`Java` `Data Structures`
+
+---
+
+## Tech Stack
+
+**Languages:** Python · Java · C · C++ · SQL · JavaScript · Verilog · PowerShell
+**Backend & Data:** FastAPI · REST APIs · PostgreSQL · PostGIS · pandas · ETL pipelines · Streamlit
+**Cloud:** AWS (Lambda, API Gateway, S3, IAM, CloudFormation, CloudWatch, RDS, SQS) · AWS CLI
+**Automation:** GitHub Actions CI · event-driven AWS Lambda · S3 lifecycle rules · ETL orchestration · Excel macros
+**DevOps & Tools:** Git/GitHub · Docker · Linux · POSIX
+**AI:** MCP servers · LLM tool calling · Claude Code · Cursor
+
+---
+
+## Contact
+
+[![Email](https://img.shields.io/badge/Email-jorgeburgos859%40gmail.com-D14836?logo=gmail&logoColor=white)](mailto:jorgeburgos859@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Jorge%20Burgos-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jorge-burgos-b5a8748a)
+[![Portfolio](https://img.shields.io/badge/Portfolio-jorgeburgos.me-000000?logo=googlechrome&logoColor=white)](https://jorgeburgos.me)
