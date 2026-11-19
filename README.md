@@ -21,21 +21,23 @@ I'm a Computer Engineering student at the **University of Puerto Rico at Mayagü
 
 - B.S. Computer Engineering — Expected **December 2027**
 - Undergraduate Research Assistant, **SCOPE Project** (Software Team), IoT Lab, UPRM
-- Currently learning: **Flask**, **React**, **Azure data services**
+- Currently learning: **React**, **Azure data services**
 - Mayagüez, Puerto Rico
 - Languages: Spanish (Native) · English (Proficient) · French (Basic)
 
 ---
 
 ## Research: SCOPE Project, UPRM
-> **AWS Lambda · API Gateway · S3 · SQS · RDS PostgreSQL · IAM · GitHub Actions**
+> **Flask · AWS Lambda · API Gateway · S3 · SQS · RDS PostgreSQL · IAM · GitHub Actions**
 
-Working on a production serverless AWS application inherited from a previous capstone team (~40 Lambda functions, API Gateway, S3, SQS, RDS PostgreSQL).
+SCOPE monitors campus parking lots with cameras: YOLO models locate each parking space and predict the probability that it is occupied. I work on the project's production serverless AWS backend (API Gateway, S3, SQS, RDS PostgreSQL), inherited from a previous capstone team.
 
+- **Architecture:** Migrated the backend with the team from ~40 single-purpose Lambda functions to a Flask app running on about 5 Lambdas, using an adapter that turns each Lambda event into the request Flask expects.
 - **Security:** Audited the architecture and secured unauthenticated API routes with IAM authorization and rate limiting, verified in production.
 - **Privacy:** Designed S3 lifecycle rules and an event-driven Lambda that deletes processed images within seconds, removing ~12 GB of stored photos.
 - **Performance:** Measured and analyzed API latency to separate cold-start from warm response times.
 - **Engineering practice:** Set up GitHub Actions CI with automated tests; ship changes through pull requests and code reviews.
+- **Next:** Improving the web app and building a mobile app so students can see in real time which parking spaces are free.
 
 ---
 
@@ -55,6 +57,7 @@ Working on a production serverless AWS application inherited from a previous cap
 **Backend & Data**
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
 ![REST APIs](https://img.shields.io/badge/REST%20APIs-555555?style=flat-square)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
 ![PostGIS](https://img.shields.io/badge/PostGIS-008BB9?style=flat-square&logo=postgresql&logoColor=white)
